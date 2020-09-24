@@ -17,7 +17,15 @@
     <style type=text/css> table { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; } table td { border-collapse: collapse; } .ExternalClass { width: 100%; } .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; } a { border: none; img { outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; } } html { -webkit-text-size-adjust: none !important; } a[x-apple-data-detectors] { color: inherit!important; text-decoration: none!important; pointer-events: none!important; } @media screen and (-webkit-min-device-pixel-ratio: 0) { .gmail-top-line { padding-top: 0px !important; } } //Hiding Content .preheader, .ganga-show { display: none; display: none !important; } //global style for sup tags sup { line-height: 1.5; font-size: 65%; vertical-align: top; mso-ansi-font-size: 100%; } // removes gmail download btn img.img-g + div { display: none; } //So display:none works in YahooMail @media yahoo { .d-hide, .ganga-show, .preheader { display: none; display: none !important; } } </style> <style type=text/css> .responsive-table { position: relative; } /* Mobile */ @media (max-width: 600px) { /* A 'td' that was side-by-side and is now stacked */ .m--stacked-column { display: block !important; width: 100% !important; } .m--only { display: block !important; } .d--only { display: none !important; } .responsive-table, .m--fluid { width: 100% !important; max-width: 100% !important; } .m--vertical-spacer { height: 16px !important; min-height: 16px !important; max-height: 16px !important; line-height: 16px !important; } .horizontal-spacer { width: 8px !important; min-width: 8px !important; max-width: 8px !important; } } </style> <style type=text/css> @media screen { @font-face { font-family: GoogleSans-Bold; src: url("https://fonts.gstatic.com/s/googlesans/v6/4UabrENHsxJlGDuGo1OIlLV154tzCwZsPF4o.woff2"); } @font-face { font-family: GoogleSans-BoldItalic; src: url("https://fonts.gstatic.com/s/googlesans/v6/4UaZrENHsxJlGDuGo1OIlL3L-idxOwRmO3wq9Io.woff2"); } @font-face { font-family: GoogleSans-Italic; src: url("https://fonts.gstatic.com/s/googlesans/v6/4UaErENHsxJlGDuGo1OIlL3L8pxULilENlY.woff2"); } @font-face { font-family: GoogleSans-Medium; src: url("https://fonts.gstatic.com/s/googlesans/v6/4UabrENHsxJlGDuGo1OIlLU94YtzCwZsPF4o.woff2"); } @font-face { font-family: GoogleSans-MediumItalic; src: url("https://fonts.gstatic.com/s/googlesans/v6/4UaZrENHsxJlGDuGo1OIlL3L-m93OwRmO3wq9Io.woff2"); } @font-face { font-family: GoogleSans-Regular; src: url("https://fonts.gstatic.com/s/googlesans/v6/4UaGrENHsxJlGDuGo1OIlL3Owp5eKQtG.woff2"); } } </style> <style type=text/css> @media (max-width: 600px) { .p--md { padding-left: 32px !important; padding-right: 32px !important; } .m--center { text-align: center !important; } .benefit-card .icon, .benefit-card .button { display: inline-block !important; } .m-fluid { width: 100% !important; } .headline { font-size: 30px !important; line-height: 38px !important; } .product-card-title { font-size: 20px !important; line-height: 24px !important; } } </style> </head> <body style="-webkit-text-size-adjust:none; mso-margin-top-alt:0px; mso-margin-bottom-alt:0px; mso-padding-alt:0; margin:0; padding:0; line-height: 1 !important;">
     <!-- styles for 50/50 mosulde -->
     <style>
-      @media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
+  /* .d-hide {
+    display: none !important;
+  }
+  .m-hide{
+    display:none !important
+  } */
+}
+@media only screen and (max-width: 600px) {
   .stack {
     display: block !important;
   }
@@ -30,15 +38,12 @@
   .m-fluid {
     width: 100% !important;
   }
-
   .side-pad {
     padding-left: 25px !important;
     padding-right: 25px !important;
   }
 
-
-  .m-display,
-.m-block {
+  .m-display, .m-block {
     display: block !important;
   }
 
@@ -47,7 +52,7 @@
   }
 
   .d-hide {
-    display: none !important;
+    display: inline-block !important;
   }
 
   .headline {
@@ -59,13 +64,13 @@
   }
 
   #header .side-padding,
-#content-body .headline,
-#content-body .body,
-#content-body .cta {
-    padding-left: 10% !important;
-    padding-right: 10% !important;
-    text-align: center !important;
-  }
+  #content-body .headline,
+  #content-body .body,
+  #content-body .cta {
+      padding-left: 10% !important;
+      padding-right: 10% !important;
+      text-align: center !important;
+    }
 
 
 
@@ -1661,239 +1666,86 @@
 
 
                   <!-- 50/50 images -->
-                  			                        <!-- MODULE SET -->
-                                                <table id="module-set" style="border-collapse: collapse; background-color: #549468;" bgcolor="#549468" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                  <tbody><tr>
-                                                    <td class="side-padding" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding: 72px 32px;">
-                                                      <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                        <tbody>
+                  <table id="module-set" style="border-collapse: collapse; background-color: #f8f8f8;" bgcolor="#f8f8f8" role="presentation" cellpadding="0" cellspacing="0" border="0">
+                    <tbody><tr>
+                      <td class="side-padding" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding: 72px 32px;">
+                        <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
+                          <tbody><tr>
+                            <td style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
+                              <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                <tbody><tr>
+                                  <td width="1%" class="stack m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
+                                    <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=callsimg#brilliant-sound" style="color: #1A73E8; text-decoration: none; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; letter-spacing: normal;">
+                                      <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_charcoal_module_2_desktop_2x.jpg" alt="" width="266" class="m-hide" style="border: none;" border="0">
+                                      <!--[if !mso]><!-->
+                                      <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_charcoal_module_2_mobile_2x.jpg" alt="" width="100%" class="m-fluid d-hide" style="border: none; display: none; mso-hide: all; max-width: 100%;" border="0">
+                                      <!--<![endif]-->
+                                    </a>
+                                  </td>
+                                  <td width="99%" valign="middle" class="stack m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
+                                    <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                      <tbody><tr>
+                                        <td class="headline left" style="border-collapse: collapse; font-weight: normal; padding-left: 32px; font-size: 24px; line-height: 30px; text-align: left; font-family: GoogleSans-Medium, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
+                                          Clear calls, even in noisy&nbsp;places.<sup>2</sup>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="body left" style="border-collapse: collapse; font-weight: normal; padding-left: 32px; font-size: 16px; line-height: 24px; text-align: left; font-family: GoogleSans-Regular, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
+                                          Pixel Buds’ built-in sensors and mics home in on your voice, so you come through crystal&nbsp;clear.
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="cta left" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding-left: 32px;">
+                                          <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=callscta#brilliant-sound" style="color: #1A73E8; text-decoration: none; letter-spacing: normal; font-family: GoogleSans-Bold, Arial, sans-serif; font-weight: bold; font-size: 14px; line-height: 22px;">Learn&nbsp;more&nbsp;&nbsp;&nbsp;&gt;</a>
+                                        </td>
+                                      </tr>       
+                                    </tbody></table>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding-top: 72px;">
+                              <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                <tbody><tr>
+                                  <td width="99%" valign="middle" class="reverse-foot m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
+                                    <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                      <tbody><tr>
+                                        <td class="headline right" style="border-collapse: collapse; font-weight: normal; padding-right: 32px; font-size: 24px; line-height: 30px; text-align: left; font-family: GoogleSans-Medium, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
+                                          Get help from&nbsp;Google.
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="body right" style="border-collapse: collapse; font-weight: normal; padding-right: 32px; font-size: 16px; line-height: 24px; text-align: left; font-family: GoogleSans-Regular, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
+                                          Hands-free help is as simple as saying “Hey Google.” Play music, control apps, send messages, and&nbsp;more.<sup>3</sup>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="cta right" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding-right: 32px;">
+                                          <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=assistantcta#assistant" style="color: #1A73E8; text-decoration: none; letter-spacing: normal; font-family: GoogleSans-Bold, Arial, sans-serif; font-weight: bold; font-size: 14px; line-height: 22px;">Learn&nbsp;more&nbsp;&nbsp;&nbsp;&gt;</a>
+                                        </td>
+                                      </tr>       
+                                    </tbody></table>
+                                  </td>
+                                  <td width="1%" class="reverse-head m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
+                                    <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=assistantimg#assistant" style="color: #1A73E8; text-decoration: none; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; letter-spacing: normal;">
+                                      <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_white_module_3_desktop_2x.jpg" alt="" width="266" class="m-hide" style="border: none;" border="0">
+                                      <!--[if !mso]><!-->
+                                      <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_white_module_3_mobile_2x.jpg" alt="" width="100%" class="m-fluid d-hide" style="border: none; display: none; mso-hide: all; max-width: 100%;" border="0">
+                                      <!--<![endif]-->
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody></table>
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                    </tr>
+                  </tbody></table>
 
-                                                          <!-- start image 1 -->
-                                                          <tr>
-                                                          <td style="border-collapse: collapse; font-family: 'Google Sans' Arial, sans-serif; font-weight: normal;">
-                                                            <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                              <tbody>
-                                                                <tr>
-                                                                <td width="1%" class="stack m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding: 32px">
-                                                                  <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=callsimg#brilliant-sound" style="color: #1A73E8; text-decoration: none; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; letter-spacing: normal;">
-                                                                    <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_charcoal_module_2_desktop_2x.jpg" alt="" width="266"  style="border: none;" border="0">
-                                                                    <!--[if !mso]><!-->
-                                                                    <!-- <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_charcoal_module_2_mobile_2x.jpg" alt="" width="100%" class="m-fluid d-hide" style="border: none; display: none; mso-hide: all; max-width: 100%;" border="0"> -->
-                                                                    <!--<![endif]-->
-                                                                  </a>
-                                                                </td>
-                                                                <td width="99%" valign="middle" class="stack m-fluid" style="border-collapse: collapse; font-family: 'Google Sans'Arial, sans-serif; font-weight: normal;">
-                                                                  <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                                    <tbody><tr>
-                                                                      <td class="headline left" style="border-collapse: collapse; font-weight: normal; padding-left: 32px; font-size: 24px; line-height: 30px; text-align: left; font-family: GoogleSans-Medium, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
-                                                                        This is the card with right text
-                                                                      </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td class="body left" style="border-collapse: collapse; font-weight: normal; padding-left: 32px; font-size: 16px; line-height: 24px; text-align: left; font-family: GoogleSans-Regular, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
-                                                                        Consectetur adipiscing elit. Phasellus ut tempus risus. Suspendisse.
-                                                                      </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td height="100%" valign="bottom" style="padding-left: 32px">
-                                          
-                                                                        <!--[if mso]>
-                                                                              <table cellpadding="0" cellspacing="0" border="0">
-                                                                                <tr>
-                                                                                  <td style="text-decoration:none;background-color:#4186f5;border: 2px solid #4186f5;"
-                                                                                  align="center" valign="middle">
-                                                                                    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
-                                                                                      <tr>
-                                                                                        <td width="16" height="40" style="display:none;">&nbsp;</td>
-                                                                                        <td>
-                                                                                          <a href="https://store.google.com/config/nest_cam_outdoor?utm_campaign=GS104882&utm_source=promo&utm_medium=email_crm&utm_content=nest_cam_outdoor"
-                                                                                          style="display:block; color:#ffffff;text-decoration:none;font-size:13px;font-weight:bold;font-family:Arial,Verdana,sans-serif;mso-line-height-rule:exactly;line-height:17px;border-top:12px solid #4186f5;border-bottom:12px solid #4186f5;border-left:25px solid #4186f5;border-right:25px solid #4186f5;">Shop</a>
-                                                                                        </td>
-                                                                                        <td width="16" style="display:none;">&nbsp;</td>
-                                                                                      </tr>
-                                                                                    </table>
-                                                                                  </td>
-                                                                                </tr>
-                                                                              </table>
-                                                                            <![endif]-->
-                                          
-                                                                        <!--[if !mso]>
-                                          
-                                                                              <!-- -->
-                                                                        <table bgcolor="" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; border-collapse: collapse; width: ; ">
-                                                                          <tbody><tr>
-                                                                            <td>
-                                                                              <a href="https://store.google.com/config/nest_cam_outdoor?utm_campaign=GS104882&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=nest_cam_outdoor" style="font-family:GoogleSans-Regular, Helvetica, Arial, sans-serif;color:#ffffff;background-color:#4186f5;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px;font-size:20px;line-height:25px;border-radius:4px;text-decoration:none;display:inline-block;">
-                                                                                <span style="display: block;">Shop</span>
-                                                                              </a>
-                                                                            </td>
-                                                                          </tr>
-                                                                        </tbody></table>
-                                          
-                                                                        <!--<![endif]-->
-                                                                      </td>
-                                                                    </tr>     
-                                                                  </tbody></table>
-                                                                </td>
-                                                              </tr>
-                                                            </tbody></table>
-                                                          </td>
-                                                        </tr>
-                                                        <!-- end image 1 -->
-
-                                                        <!-- start image 2 -->
-                                                        <tr>
-                                                          <td style="border-collapse: collapse; font-family: 'Google Sans' Arial, sans-serif; font-weight: normal;">
-                                                            <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                              <tbody>
-                                                                <tr>
-
-                                                                <td width="99%" valign="middle" class="stack m-fluid" style="border-collapse: collapse; font-family: 'Google Sans'Arial, sans-serif; font-weight: normal;">
-                                                                  <table style="border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                                    <tbody><tr>
-                                                                      <td class="headline left" style="border-collapse: collapse; font-weight: normal; padding-left: 32px; font-size: 24px; line-height: 30px; text-align: left; font-family: GoogleSans-Medium, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
-                                                                        This is the card with left text
-                                                                      </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td class="body left" style="border-collapse: collapse; font-weight: normal; padding-left: 32px; font-size: 16px; line-height: 24px; text-align: left; font-family: GoogleSans-Regular, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
-                                                                        Consectetur adipiscing elit. Phasellus ut tempus risus. Suspendisse.
-                                                                      </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td height="100%" valign="bottom" style="padding-left: 32px">
-                                          
-                                                                        <!--[if mso]>
-                                                                              <table cellpadding="0" cellspacing="0" border="0">
-                                                                                <tr>
-                                                                                  <td style="text-decoration:none;background-color:#4186f5;border: 2px solid #4186f5;"
-                                                                                  align="center" valign="middle">
-                                                                                    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
-                                                                                      <tr>
-                                                                                        <td width="16" height="40" style="display:none;">&nbsp;</td>
-                                                                                        <td>
-                                                                                          <a href="https://store.google.com/config/nest_cam_outdoor?utm_campaign=GS104882&utm_source=promo&utm_medium=email_crm&utm_content=nest_cam_outdoor"
-                                                                                          style="display:block; color:#ffffff;text-decoration:none;font-size:13px;font-weight:bold;font-family:Arial,Verdana,sans-serif;mso-line-height-rule:exactly;line-height:17px;border-top:12px solid #4186f5;border-bottom:12px solid #4186f5;border-left:25px solid #4186f5;border-right:25px solid #4186f5;">Shop</a>
-                                                                                        </td>
-                                                                                        <td width="16" style="display:none;">&nbsp;</td>
-                                                                                      </tr>
-                                                                                    </table>
-                                                                                  </td>
-                                                                                </tr>
-                                                                              </table>
-                                                                            <![endif]-->
-                                          
-                                                                        <!--[if !mso]>
-                                          
-                                                                              <!-- -->
-                                                                        <table bgcolor="" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; border-collapse: collapse; width: ; ">
-                                                                          <tbody><tr>
-                                                                            <td>
-                                                                              <a href="https://store.google.com/config/nest_cam_outdoor?utm_campaign=GS104882&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=nest_cam_outdoor" style="font-family:GoogleSans-Regular, Helvetica, Arial, sans-serif;color:#ffffff;background-color:#4186f5;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px;font-size:20px;line-height:25px;border-radius:4px;text-decoration:none;display:inline-block;">
-                                                                                <span style="display: block;">Shop</span>
-                                                                              </a>
-                                                                            </td>
-                                                                          </tr>
-                                                                        </tbody></table>
-                                          
-                                                                        <!--<![endif]-->
-                                                                      </td>
-                                                                    </tr>     
-                                                                  </tbody></table>
-                                                                </td>
-
-                                                                <td width="1%" class="stack reverse-head stack m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding: 32px">
-                                                                  <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=callsimg#brilliant-sound" style="color: #1A73E8; text-decoration: none; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; letter-spacing: normal;">
-                                                                    <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_charcoal_module_2_desktop_2x.jpg" alt="" width="266" style="border: none;" border="0">
-                                                                    <!--[if !mso]><!-->
-                                                                    <!-- <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_charcoal_module_2_mobile_2x.jpg" alt="" width="100%" class="m-fluid d-hide" style="border: none; display: none; mso-hide: all; max-width: 100%;" border="0"> -->
-                                                                    <!--<![endif]-->
-                                                                  </a>
-                                                                </td>
-
-                                                              </tr>
-                                                            </tbody></table>
-                                                          </td>
-                                                        </tr>
-                                                        <!-- end image 2 -->
-
-                                                        <!-- image 3 -->
-                                                        <tr>
-                                                          <td style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; padding-top: 72px;padding-left: 32px;">
-                                                            <table style="padding-left: 32px;border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                              <tbody><tr>
-                                                                <td width="99%" valign="middle" class="m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
-                                                                  <table style="padding-left: 32px;border-collapse: collapse;" role="presentation" cellpadding="0" cellspacing="0" border="0">
-                                                                    <tbody><tr>
-                                                                      <td class="headline right" style="border-collapse: collapse; font-weight: normal; padding-right: 32px; font-size: 24px; line-height: 30px; text-align: left; font-family: GoogleSans-Medium, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
-                                                                        This is the second card with left text                                                                    </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td class="body right" style="border-collapse: collapse; font-weight: normal; padding-right: 32px; font-size: 16px; line-height: 24px; text-align: left; font-family: GoogleSans-Regular, Arial, sans-serif; color: #433E3E; padding-bottom: 16px;" align="left">
-                                                                        Consectetur adipiscing elit. Phasellus ut tempus risus. Suspendisse.
-                                                                      </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td height="100%" valign="bottom">
-                                          
-                                                                        <!--[if mso]>
-                                                                              <table cellpadding="0" cellspacing="0" border="0">
-                                                                                <tr>
-                                                                                  <td style="text-decoration:none;background-color:#4186f5;border: 2px solid #4186f5;"
-                                                                                  align="center" valign="middle">
-                                                                                    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
-                                                                                      <tr>
-                                                                                        <td width="16" height="40" style="display:none;">&nbsp;</td>
-                                                                                        <td>
-                                                                                          <a href="https://store.google.com/config/nest_cam_outdoor?utm_campaign=GS104882&utm_source=promo&utm_medium=email_crm&utm_content=nest_cam_outdoor"
-                                                                                          style="display:block; color:#ffffff;text-decoration:none;font-size:13px;font-weight:bold;font-family:Arial,Verdana,sans-serif;mso-line-height-rule:exactly;line-height:17px;border-top:12px solid #4186f5;border-bottom:12px solid #4186f5;border-left:25px solid #4186f5;border-right:25px solid #4186f5;">Shop</a>
-                                                                                        </td>
-                                                                                        <td width="16" style="display:none;">&nbsp;</td>
-                                                                                      </tr>
-                                                                                    </table>
-                                                                                  </td>
-                                                                                </tr>
-                                                                              </table>
-                                                                            <![endif]-->
-                                          
-                                                                        <!--[if !mso]>
-                                          
-                                                                              <!-- -->
-                                                                        <table bgcolor="" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; border-collapse: collapse; width: ; ">
-                                                                          <tbody><tr>
-                                                                            <td>
-                                                                              <a href="https://store.google.com/config/nest_cam_outdoor?utm_campaign=GS104882&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=nest_cam_outdoor" style="font-family:GoogleSans-Regular, Helvetica, Arial, sans-serif;color:#ffffff;background-color:#4186f5;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px;font-size:20px;line-height:25px;border-radius:4px;text-decoration:none;display:inline-block;">
-                                                                                <span style="display: block;">Shop</span>
-                                                                              </a>
-                                                                            </td>
-                                                                          </tr>
-                                                                        </tbody></table>
-                                          
-                                                                        <!--<![endif]-->
-                                                                      </td>
-                                                                    </tr>     
-                                                                  </tbody></table>
-                                                                </td>
-                                                                <td width="1%" class="reverse-head m-fluid" style="border-collapse: collapse; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal;">
-                                                                  <a href="https://store.google.com/product/pixel_buds?utm_campaign=GS200117&amp;utm_source=promo&amp;utm_medium=email_crm&amp;utm_content=assistantimg#assistant" style="color: #1A73E8; text-decoration: none; font-family: 'Google Sans', Arial, sans-serif; font-weight: normal; letter-spacing: normal;">
-                                                                    <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_white_module_3_desktop_2x.jpg" alt="" width="266" class="m-fluid" style="border: none;" border="0">
-                                                                    <!--[if !mso]><!-->
-                                                                    <!-- <img src="http://services.google.com/fh/files/emails/pixel_buds_hero_white_module_3_mobile_2x.jpg" alt="" width="100%" class="m-fluid d-hide" style="border: none; display: none; mso-hide: all; max-width: 100%;" border="0"> -->
-                                                                    <!--<![endif]-->
-                                                                  </a>
-                                                                </td>
-                                                              </tr>
-                                                            </tbody></table>
-                                                          </td>
-                                                        </tr>
-                                                        <!-- end image 3 -->
-
-                                                      </tbody></table>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                                <!-- end 50/50 images -->
+                  <!-- end 50/50 images -->
 
 
                   
